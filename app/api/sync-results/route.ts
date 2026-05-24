@@ -177,7 +177,6 @@ function normalizarEquipo(nombre: string): string {
     'curacao': 'curazao',
     'panama': 'panamá',
     // Español → normalizado (identity)
-    'argentina': 'argentina',
     'francia': 'francia',
     'españa': 'españa',
     'brasil': 'brasil',
