@@ -76,7 +76,7 @@ export async function POST() {
       const matchday = match.matchday
 
       // Buscar en nuestra DB por match_number o por equipos
-      const partido = partidos?.find(p => {
+      const partido = partidos?.find((p: any) => {
         // Match por nombres de equipo (aproximado)
         const localMatch = normalizarEquipo(p.equipo_local) === normalizarEquipo(homeTeam)
         const visitanteMatch = normalizarEquipo(p.equipo_visitante) === normalizarEquipo(awayTeam)
