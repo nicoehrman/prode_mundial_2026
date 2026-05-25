@@ -20,8 +20,8 @@ export function bandera(equipo: string): string {
 export const TOP_JUGADORES = [
   'Lionel Messi', 'Lautaro Martínez', 'Julián Álvarez', 'Ángel Di María',
   'Rodrigo De Paul', 'Alexis Mac Allister',
-  'Kylian Mbappé', 'Antoine Griezmann', 'Ousmane Dembélé', 'Marcus Thuram',
-  'Lamine Yamal', 'Pedri', 'Álvaro Morata', 'Nico Williams', 'Dani Olmo',
+  'Kylian Mbappé', 'Ousmane Dembélé', 'Marcus Thuram',
+  'Lamine Yamal', 'Pedri', 'Nico Williams', 'Dani Olmo',
   'Vinicius Jr.', 'Rodrygo', 'Raphinha', 'Endrick', 'Lucas Paquetá',
   'Jude Bellingham', 'Harry Kane', 'Bukayo Saka', 'Phil Foden', 'Cole Palmer',
   'Cristiano Ronaldo', 'Bruno Fernandes', 'Bernardo Silva', 'Rafael Leão',
